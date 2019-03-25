@@ -19,7 +19,7 @@ RequiredSheetVersion(12.999); // Optional; This is the minimum required version 
 
 ClassList["weavecaster"] = { //Object name; Note the use of only lower case! Also note the absence of the word "var" and the use of brackets []
 
-	regExpSearch : /weavecaster/i,
+	regExpSearch : /^(?=.*weave)(?=.*caster).*$/i,
 	name : "Weave Caster",
 	source : ["HB", 0],
 	primaryAbility : "\n \u2022 Weave Caster: Intelligence;",
